@@ -1,0 +1,470 @@
+/*
+Всё содержимое сайта
+*/
+body {
+	font-size: 22px;
+	color: black;
+	font-family: "Ariel", sans-serif;
+}
+
+/*
+Основное содержимое сайта
+*/
+main{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Осмысленное содержимое подвала сайта
+*/
+
+/*
+Подвал сайта
+*/
+footer {
+    background-color: black;
+}
+
+/*
+Таблица ссылок в подвале сайта
+*/
+.tableFooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/*
+Левая таблица ссылок в таблице ссылок подвала
+*/
+.tableLeftFooter{
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 10px;
+}
+
+/*
+Правая таблица ссылок в таблице ссылок подвала
+*/
+.tableRightFooter{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10px;
+}
+
+/*
+Ссылки в таблице ссылок в подвале сайта
+*/
+.linkFooter{
+    color: white;
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Осмысленное содержимое шапки сайта
+*/
+
+/*
+Отступы в заголовке h1 в шапке сайта
+*/
+h1{
+    padding: 0%;
+    margin: 0%;
+}
+
+/*
+Шапка сайта
+*/
+.header{
+    display: flex;
+    background-color: rgb(53, 121, 247);
+    color: white;
+}
+
+/*
+Таблица в шапке сайта
+*/
+.tableHeader {
+    width: 100%;
+    height: 95px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: 1fr;
+    justify-items: stretch;
+  	align-items: stretch;
+}
+
+/*
+Название компании в шапке сайта
+*/
+.titleInHeader{
+    padding-left: 20px;
+    padding-top: 20px;
+    align-items: start;
+    justify-items: start;
+    color:white;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+/*
+Блок с ссылками в шапке сайта
+*/
+.blockWithLinksInHeader{
+    height: 80px;
+    display: flex;
+    color:white;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+    padding-right: 150px;
+    gap: 25px;
+    
+}
+
+/*
+Ссылка в шапке сайта
+*/
+.linkInHeader{
+    color:white;
+    text-decoration: none;
+}
+
+.linkInHeader:hover{
+    color:rgb(182, 165, 238);
+    text-decoration: none;
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Осмысленное содержимое блока с уведомлениями
+*/
+
+/*
+Блок с уведомлениями
+*/
+.BlockOfNotification{
+    background-color:rgb(161, 177, 207);
+    border: 1px solid rgb(21, 98, 241);
+    border-radius: 15px;
+    color: rgb(21, 98, 241);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*
+Отступ в первой строке в блоке уведомлений
+*/
+.TabNotification{
+    padding-left: 40px;
+}
+
+.TextNotification{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Осмысленное содержимое блока описания языковой школы
+*/
+
+/*
+Блок описания языковой школы
+*/
+.DescriptionBlock{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*
+Заголовок в блоке описания языковой школы
+*/
+.DescriptionTitle{
+
+}
+
+/*
+Текст в блоке описания языковой школы
+*/
+.DescriptionText{
+
+}
+
+/*
+Первый отступ в тексте блока описания языковой школы
+*/
+.TabDescription{
+    padding-left: 40px;
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Линия между текстовыми блоками, 
+эта линия идёт после блока с описанием языковой школы 
+и после блока с преимуществами изучения языков
+*/
+.BorderLineBetweenTextBlocks{
+    border: 1px solid rgb(104, 97, 97);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Осмысленное содержимое блока о преимуществах изучения иностранного языка
+*/
+
+/*
+Блок с преимуществами изучения языков
+*/
+.AdvantageBlock{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*
+Заголовок в блоке преимуществ изучения языков
+*/
+.AdvantageTitle{
+
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Блок с курсами
+*/
+
+/*
+Таблица в блоке с выбором курсов
+*/
+.TableCourse{
+    border: 1px solid black;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+
+
+/*
+Ячейка в таблице в блоке с выбором курсов
+*/
+.TableCellCourse{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Пагинация в списке курсов и в списке репетиторов
+*/
+
+/*
+Таблица пагинации курсов
+*/
+.PaginationTableCourse{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+/*
+Ячейка в таблице пагинации курсов
+*/
+
+.PaginationCellCourse{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+.PaginationCellCourse:hover{
+    text-decoration: underline;
+    color: rgb(79, 79, 202);
+    background-color: rgb(170, 168, 199)
+}
+
+/*
+Выбранная ячейка в таблице пагинации курсов
+*/
+
+.PaginationChosenCellCourse{
+    color: rgb(19, 19, 121);
+    background-color: rgb(70, 64, 155);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Форма с поиском курсов
+*/
+
+/*
+Весь блок со строкой поиска
+*/
+.SearchString{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-spacing: 10px; 
+    border-collapse: separate;
+}
+
+
+/*
+Строка ввода в строке поиска курсов
+*/
+.SearchInputCourse{
+    border: 1px solid rgb(75, 71, 71);
+    border-radius: 10px;
+
+    padding: 10px;
+    font-size: 18px;
+    color: grey;
+    width: 100%;
+
+}
+
+/*
+Падающий лист с уровнями курсов в строке поиска курсов
+*/
+.ChooseLevelCourse{
+    border: 1px solid rgb(75, 71, 71);
+    border-radius: 10px;
+
+    padding: 12px;
+    font-size: 18px;
+    width: 100%;
+}
+
+
+/*
+Кнопка поиска курса в строке поиска курсов
+*/
+.ButtonFindCourse{
+    width: 100%;
+    background-color:rgb(101, 101, 222);
+    font-size: 18px;
+    padding: 9px;
+    border: 1px solid rgb(3, 3, 132);
+    border-radius: 10px;
+    color: white;
+}
+
+.ButtonFindCourse:hover{
+    background-color: rgb(49, 49, 230);
+    border: 1px solid rgb(3, 3, 183);
+    color:rgb(137, 137, 201);
+    font-size: 18px;
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Блок с списком репетиторов
+*/
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Блок формы оформления заказа
+*/
+
+.ButtonToMakeOrder{
+    background-color: rgb(47, 171, 47);
+    color: white;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ButtonToMakeOrder:hover{
+    background-color: rgb(30, 145, 30);
+    color: rgb(34, 108, 5);
+    border: 1px solid green;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*
+Весь блок с выбранным курсом и преподавателем
+*/
+.ChosenThings{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*
+Блок, показывающий отдельно выбранный курс или преподавателя
+*/
+.ChosenCourseAndTutor{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Блок с поиском репетиторов и блок с поиском курса
+*/
+
+.dropdown {
+  left: 0;
+  width: 90%;
+  background: #fff;
+  border: 1px solid rgb(75, 71, 71);
+  z-index: 1000;
+
+  margin-top:10px;
+  margin-bottom:10px;
+
+  border-bottom: 1px solid rgb(75, 71, 71);
+  border-radius: 10px;
+
+}
+
+.dropdown-item {
+  padding: 10px;
+  border-bottom: 1px solid rgb(75, 71, 71);
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.hidden {
+  display: none;
+}
