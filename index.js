@@ -125,7 +125,7 @@ function handleTutorPage(page) {
 let allCourses = [];//Все данные курсов
 
 function loadCourses() {
-    fetch("courses.json")
+    fetch("./courses.json")
         .then(res => res.json())
         .then(data => {
             allCourses = data;
@@ -139,7 +139,7 @@ function loadCourses() {
 let allTutors = []; //Все данные репетиторов
 
 function loadTutors() {
-    fetch("tutors.json")
+    fetch("./tutors.json")
         .then(res => res.json())
         .then(data => {
             allTutors = data;
