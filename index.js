@@ -125,7 +125,7 @@ function handleTutorPage(page) {
 let allCourses = [];//Все данные курсов
 
 function loadCourses() {
-    fetch("http://exam-api-courses.std-900.ist.mospolytech.ru/api/courses?api_key=f97f0ebd-977c-4c9b-833e-8310102212a4")
+    fetch("courses.json")
         .then(res => res.json())
         .then(data => {
             allCourses = data;
@@ -139,7 +139,7 @@ function loadCourses() {
 let allTutors = []; //Все данные репетиторов
 
 function loadTutors() {
-    fetch("http://exam-api-courses.std-900.ist.mospolytech.ru/api/tutors?api_key=f97f0ebd-977c-4c9b-833e-8310102212a4")
+    fetch("tutors.json")
         .then(res => res.json())
         .then(data => {
             allTutors = data;
